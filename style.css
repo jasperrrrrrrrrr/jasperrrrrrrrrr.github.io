@@ -60,7 +60,7 @@ a {
     size: 15px 30px;
 }
 
-/*button {
+button {
     background-color:rgb(247, 127, 0);
     border: none;
     color: white !important; 
@@ -76,7 +76,7 @@ a {
 button:hover {
     background-color: rgb(214, 40, 40);
     transition-duration: 0.4s;
-}*/
+}
 
 h2:after {
     content: ' \00A7';
