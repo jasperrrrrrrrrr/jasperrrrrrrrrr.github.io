@@ -1,0 +1,13 @@
+body {
+    /*background-image: linear-gradient(red, orange, yellow, green, blue, purple);*/
+    /*background-image: url(5237066becad04fb398ca720.webp);*/
+    background-image: url("favicon2.ico");
+}
+
+h1 {
+    color:  white;
+    font-size: 100px;
+}
+h2 {
+    color: white;
+}

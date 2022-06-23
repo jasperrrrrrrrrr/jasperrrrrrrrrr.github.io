@@ -1,0 +1,161 @@
+body {
+    background-image: linear-gradient(rgb(0, 48, 73), rgb(234,226,183), rgb(234,226,183), rgb(234,226,183));
+    /*background-color: rgb(234,226,183);*/
+}
+
+img {
+    width: 40%;
+}
+
+
+marquee {
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: black;
+    font-size: 100px;
+    text-decoration: none;
+    line-height: 5px;
+    font-family: Tahoma, Verdana, Segoe, sans-serif !important;
+}
+
+h2 {
+    color: green;
+    font-size: 75px;
+    line-height: 5px;
+}
+
+h3 {
+    color: rgb(247, 127, 0);
+    font-size: 25px;
+    line-height: 5px;
+    font-family: Consolas,monaco,monospace;
+}
+
+h4 {
+    color: darkblue;
+    line-height: 5px;
+    font-size: 20px;
+    font-family: monaco,Consolas,Lucida Console,monospace;
+}
+
+p {
+    color: black;
+    font-size: 15px;
+    font-family: monaco,Consolas,monospace;
+}
+
+br {
+    line-height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    display: block;
+    size: 15px 30px;
+}
+
+/*button {
+    background-color:rgb(247, 127, 0);
+    border: none;
+    color: white !important; 
+    padding: 15px 30px !important;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    display: block;
+}
+
+button:hover {
+    background-color: rgb(214, 40, 40);
+    transition-duration: 0.4s;
+}*/
+
+h2:after {
+    content: ' \00A7';
+    text-decoration: none;
+}
+
+.navbar {
+    overflow: hidden !important;
+    background-color: rgb(0, 48, 73) !important;
+    font-family: Arial !important;
+    border-radius: 5px !important;
+}
+  
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(214, 40, 40) !important;
+    transition-duration: 0.4s !important;
+}
+
+.my-navbar {
+    overflow: hidden !important;
+    background-color: rgb(0, 48, 73) !important;
+    font-family: Arial !important;
+    border-radius: 5px !important;
+    height: 46px;
+    display: flex;
+    align-items: center;
+}
+  
+.my-navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+  
+.my-navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(214, 40, 40) !important;
+    transition-duration: 0.4s !important;
+}
+
+.my-h1 {
+    color: black !important;
+    font-size: 100px !important;
+    line-height: 5px !important;
+    font-family: Tahoma, Verdana, Segoe, sans-serif !important;
+    margin-top: 69px !important;
+    margin-bottom: 85px !important;
+
+}
+
+.specialbody {
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+.myh3 {
+    color: rgb(247, 127, 0);
+    font-size: 25px;
+    line-height: 5px;
+    font-family: Consolas, monaco, monospace !important;
+    margin-bottom: 23px;
+    font-weight: bold;
+}
+
+.myp {
+    color: black;
+    font-size: 15px;
+    font-family: monaco,Consolas,monospace;
+}
